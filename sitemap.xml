@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://tgzhanghao.github.io/</loc>
-    <lastmod>2026-11-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
+  <url><loc>https://tgzhanghao.github.io/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://tgzhanghao.github.io/articles/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://tgzhanghao.github.io/articles/tg-zhanghao-goumai/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://tgzhanghao.github.io/articles/telegram-chengpin-hao/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://tgzhanghao.github.io/articles/telegram-haoshang/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://tgzhanghao.github.io/articles/telegram-jiage-duibi/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://tgzhanghao.github.io/articles/telegram-jieda-yanzhengma/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://tgzhanghao.github.io/articles/zhifeiji-guonei-zhuce/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://tgzhanghao.github.io/articles/telegram-mianfei-zhuce/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://tgzhanghao.github.io/articles/telegram-shoubudao-yanzhengma/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://tgzhanghao.github.io/articles/telegram-yincang-shoujihao/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://tgzhanghao.github.io/articles/telegram-saoma-denglu/</loc><lastmod>2026-11-26</lastmod></url>
 </urlset>

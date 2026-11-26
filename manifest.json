@@ -1,0 +1,62 @@
+{
+  "name": "TG账号批发网",
+  "short_name": "TG账号批发",
+  "description": "TG账号批发网 - 电报账号批发、telegram账号购买，50起批、自动发货",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a2744",
+  "theme_color": "#1a2744",
+  "orientation": "portrait-primary",
+  "lang": "zh-CN",
+  "categories": ["shopping", "business", "utilities"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/images/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/images/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "首页",
+      "short_name": "首页",
+      "description": "返回首页",
+      "url": "/",
+      "icons": [
+        {
+          "src": "/assets/images/favicon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "选购教程",
+      "short_name": "教程",
+      "description": "TG账号购买与使用教程",
+      "url": "/articles/",
+      "icons": [
+        {
+          "src": "/assets/images/favicon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}

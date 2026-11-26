@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#223156"/>
+      <stop offset="100%" style="stop-color:#141d33"/>
+    </linearGradient>
+    <linearGradient id="planeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffc39a"/>
+      <stop offset="45%" style="stop-color:#ff8a4c"/>
+      <stop offset="100%" style="stop-color:#e85d2f"/>
+    </linearGradient>
+    <linearGradient id="trailGrad" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff8a4c;stop-opacity:0.55"/>
+      <stop offset="100%" style="stop-color:#ff8a4c;stop-opacity:0"/>
+    </linearGradient>
+    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ff8a4c;stop-opacity:0.28"/>
+      <stop offset="100%" style="stop-color:#ff8a4c;stop-opacity:0"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="9" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="256" fill="url(#bgGrad)"/>
+
+  <!-- Glow effect -->
+  <circle cx="256" cy="256" r="190" fill="url(#glowGrad)"/>
+
+  <!-- Outer rings - signal / network representation -->
+  <g transform="translate(256,256)" fill="none" stroke="#ff8a4c" stroke-width="2" opacity="0.3">
+    <circle r="126" stroke-dasharray="8 12"/>
+    <circle r="168" stroke-dasharray="4 16" opacity="0.6"/>
+  </g>
+
+  <!-- Data arcs -->
+  <g transform="translate(256,256)" fill="none" stroke-width="2.5">
+    <path d="M 104 -18 Q 146 -56 168 -96" stroke="#ffab7a" opacity="0.45" stroke-linecap="round"/>
+    <path d="M 104 6 Q 152 -16 184 -38" stroke="#ff8a4c" opacity="0.35" stroke-linecap="round"/>
+    <path d="M 84 66 Q 124 86 154 116" stroke="#ffab7a" opacity="0.32" stroke-linecap="round"/>
+  </g>
+
+  <!-- Small data dots -->
+  <g fill="#ffab7a" opacity="0.6">
+    <circle cx="374" cy="158" r="3"/>
+    <circle cx="404" cy="200" r="2.5"/>
+    <circle cx="344" cy="282" r="2"/>
+    <circle cx="384" cy="302" r="3"/>
+    <circle cx="362" cy="352" r="2.5"/>
+  </g>
+
+  <!-- Telegram paper plane (centered) -->
+  <g transform="translate(256,256) scale(6.6) translate(-31.5,-32)">
+    <path d="M54.4 11.6c-.8-2.6-3.2-3.4-5.6-2.6L8.6 27.6c-2.9 1-2.9 2.9-.5 3.7l11.6 3.6 4.4 14.2c.5 1.6 1 1.8 2.6 1.8 1.3 0 1.8-.5 2.6-1.3l5.8-5.5 11.8 8.7c2.1 1.3 3.7.5 4.2-2.1l7.6-35.6c.8-3.2-.5-4.7-2.3-5.5z" fill="url(#planeGrad)"/>
+    <path d="M54.4 11.6c-.8-2.6-3.2-3.4-5.6-2.6L8.6 27.6c-2.9 1-2.9 2.9-.5 3.7l11.6 3.6 4.4 14.2c.5 1.6 1 1.8 2.6 1.8 1.3 0 1.8-.5 2.6-1.3l5.8-5.5 11.8 8.7c2.1 1.3 3.7.5 4.2-2.1l7.6-35.6c.8-3.2-.5-4.7-2.3-5.5z" fill="none" stroke="#fff7f0" stroke-width="0.35" opacity="0.3"/>
+  </g>
+
+  <!-- Exhaust trails -->
+  <g stroke="url(#trailGrad)" stroke-linecap="round" fill="none">
+    <path d="M 108 224 Q 88 224 66 226" stroke-width="4"/>
+    <path d="M 112 240 Q 92 241 72 240" stroke-width="3"/>
+    <path d="M 116 256 Q 98 258 80 257" stroke-width="2.2"/>
+  </g>
+
+  <!-- Speed lines -->
+  <g stroke="rgba(255,255,255,0.16)" stroke-width="1.5" stroke-linecap="round" opacity="0.6">
+    <line x1="150" y1="200" x2="192" y2="203"/>
+    <line x1="146" y1="272" x2="188" y2="270"/>
+  </g>
+
+</svg>
